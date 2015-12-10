@@ -1,0 +1,102 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          font-family: arial;
+}
+
+
+.MainPanel
+{
+  position: relative;
+  width: 400px;
+  height: 440px;
+  background-color: #a99;
+}
+
+.Info
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  position: absolute;
+  bottom: 0px;
+  width: 400px;
+  height:30px;
+  color: white;
+  background-color:rgba(0,0,0,0.5);
+}
+
+.MapOption
+{
+  top: 400px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 40px;
+  color: white;
+  font-size: 10pt;
+  background-color:black;
+}
+
+.Content
+{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  object-position: center;
+
+  background-color: #eee;
+}
+
+.ContentImage
+{
+  position: absolute;
+  margin: auto;
+  min-height: 100%;
+  min-width: 100%;
+
+  left: -100%;
+  right: -100%;
+  top: -100%;
+  bottom: -100%;
+}
+
+.RadioGroup
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  margin: 0 auto;
+  display: block;
+}
+
+.main {
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+.Input {
+    width: 400px;
+}
+
+.LocationInput {
+  font-size:15pt;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.LocationButton {
+  padding: 5px;
+}
